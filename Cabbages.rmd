@@ -48,6 +48,12 @@ The box C52 is higher than C39. Which means the first quartile of C52 is larger 
 
 ### Numerical Descriptive Results
 
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+The first Quartile of C39 has a value of 46 and C52 has a value of 58. Both contain 30 numerical values.
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
